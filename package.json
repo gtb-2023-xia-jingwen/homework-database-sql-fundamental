@@ -1,0 +1,28 @@
+{
+  "name": "12-sql-practice",
+  "version": "1.0.0",
+  "description": "This is a tutorial for basic SQL queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ./src/**/*.ts"
+  },
+  "keywords": [
+    "SQL"
+  ],
+  "author": "Liu Xia",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/mysql": "^2.15.6",
+    "@typescript-eslint/eslint-plugin": "^1.7.0",
+    "@typescript-eslint/parser": "^1.7.0",
+    "acorn": "^6.1.1",
+    "eslint": "^5.16.0",
+    "jest": "^24.7.1",
+    "mysql": "^2.17.1",
+    "promise-mysql": "^3.3.1",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  }
+}
