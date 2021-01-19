@@ -10,6 +10,7 @@ export function getConfiguration () {
     host: '127.0.0.1',
     user: 'root',
     password: 'test',
-    database: 'classicmodel'
+    database: 'classicmodel',
+    port: 3306
   };
 }
