@@ -5,7 +5,7 @@ function getConfiguration(): ConnectionConfig {
   return {
     host: '${YOUR_DATABASE_HOST}',
     user: '${YOUR_DATABASE_USERNAME}',
-    password: 'p@ssword',
+    password: '${YOUR_DATABASE_PASSWORD}',
     database: '${YOUR_DATABASE_NAME}',
     port: 13306,
   };

@@ -84,3 +84,4 @@ typings/
 .dynamodb/
 
 db-connection.ts
+.scannerwork

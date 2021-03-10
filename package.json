@@ -1,11 +1,12 @@
 {
-  "name": "12-sql-practice",
+  "name": "sql-query-practice",
   "version": "1.0.0",
   "description": "This is a tutorial for basic SQL queries",
   "main": "index.js",
   "scripts": {
     "test": "jest -- sql_spec.ts",
-    "lint": "eslint ./src/**/*.ts"
+    "lint": "eslint ./src/**/*.ts",
+    "sonarqube": "./sonar-scan.sh"
   },
   "keywords": [
     "SQL"
