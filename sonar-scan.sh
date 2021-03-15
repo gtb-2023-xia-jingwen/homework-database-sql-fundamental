@@ -10,4 +10,4 @@ sonar-scanner \
    -Dsonar.host.url="${SONAR_HOST}" \
    -Dsonar.login="${SONAR_LOGIN}" \
    -Dsonar.projectKey="${STUDENT_NAME}:${STUDENT_TERM}:${PACKAGE_NAME}" \
-   -Dsonar.exclusions=**/*.test.js,**/*.spec.js
+   -Dsonar.exclusions=**/sql_spec.ts
