@@ -27,7 +27,7 @@ jobs:
       - name: Build with NPM
         run: |
           npm install
-          export YOUR_DATABASE_HOST=$(echo "${{ secrets.DASHBOARD_ADDRESS }}" | awk -F/ '{print $3}' | sed 's/:.*//')
+          export YOUR_DATABASE_HOST="db.$(echo "${{ secrets.DASHBOARD_ADDRESS }}" | awk -F/ '{print $3}' | sed 's/:.*//')"
           export YOUR_DATABASE_USERNAME="gtb-ci"
           export YOUR_DATABASE_NAME="classicmodel-gtb-ci"
           export YOUR_DATABASE_PASSWORD="${{ secrets.SONAR_TOKEN }}"
