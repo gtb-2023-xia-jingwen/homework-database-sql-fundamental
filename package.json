@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest -- sql_spec.ts",
-    "lint": "eslint ./src/**/*.ts",
-    "sonarqube": "./sonar-scan.sh"
+    "lint": "eslint ./src/**/*.ts"
   },
   "keywords": [
     "SQL"
