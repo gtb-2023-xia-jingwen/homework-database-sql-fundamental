@@ -1,6 +1,6 @@
-# SQL Practice Introduction
+# Introduction
 
-In this practice, you should be able to pass all the tests. Firstly you should prepare your environment.
+In this homework, you should be able to pass all the tests. Firstly you should prepare your environment.
 
 ## 1.1 Connected to remote MySQL instance
 
