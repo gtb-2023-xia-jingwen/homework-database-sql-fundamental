@@ -85,3 +85,5 @@ typings/
 
 db-connection.ts
 .scannerwork
+
+.idea
