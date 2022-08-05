@@ -3,7 +3,7 @@ version: '3.3'
 services:
   db:
     image: kobe19881208/gtb-mysql:8.0.29
-    container_name: todoapp_db
+    container_name: sql_practice_db
     command: --default-authentication-plugin=mysql_native_password
     environment:
       MYSQL_ROOT_PASSWORD: "p@ssword"
