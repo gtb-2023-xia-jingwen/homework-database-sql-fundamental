@@ -83,7 +83,6 @@ typings/
 # DynamoDB Local files
 .dynamodb/
 
-db-connection.ts
 .scannerwork
 
 .idea
