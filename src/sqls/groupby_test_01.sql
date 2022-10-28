@@ -8,4 +8,7 @@
  *
  * 其结果也应当按照 `status` 排序
  */
- 
+SELECT `status`, COUNT(`status`) as `numberOfOrders`
+FROM `orders`
+GROUP BY `status`
+ORDER BY `status`;
