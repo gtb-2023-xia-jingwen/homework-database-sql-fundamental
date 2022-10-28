@@ -4,4 +4,5 @@
  */
 SELECT distinct `officeCode`
 FROM `employees`
-WHERE `jobTitle` != 'Sales Rep';
+WHERE `jobTitle` != 'Sales Rep'
+ORDER BY `officeCode`;
