@@ -9,3 +9,9 @@
  * 
  * 结果应当按照 `orderNumber` 排序。
  */
+SELECT `orderNumber`, `productName`, `MSRP`, `priceEach`
+FROM `orderdetails`
+INNER JOIN `products`
+ON orderdetails.productCode = products.productCode
+WHERE products.`productCode` = 'S10_1678'  and `priceEach` < `MSRP`
+ORDER BY `orderNumber`;
