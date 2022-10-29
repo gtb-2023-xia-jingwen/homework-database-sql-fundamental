@@ -9,3 +9,8 @@
  *
  * 提示：你可以使用 `YEAR` 聚合函数从日期（`orderDate`）中获得年份的信息。 
  */
+SELECT YEAR(`orderDate`) as `year`, SUM(`quantityOrdered` * `priceEach`) as `totalPrice`
+FROM `orders`, `orderdetails`
+WHERE orders.`orderNumber` = orderdetails.`orderNumber`
+GROUP BY `year`
+ORDER BY `year`;
