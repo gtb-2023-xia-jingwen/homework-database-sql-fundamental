@@ -7,3 +7,8 @@
  *
  * 其结果应当以 `orderNumber` 排序。
  */
+SELECT `orderNumber`, SUM(`quantityOrdered` * `priceEach`) as `totalPrice`
+FROM `orderdetails`
+GROUP BY `orderNumber`
+HAVING `totalPrice` > 60000
+ORDER BY `orderNumber`;
